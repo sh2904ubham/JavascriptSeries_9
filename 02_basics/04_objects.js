@@ -34,10 +34,23 @@ idn:5
 {}]
 //console.log(users[0].email);
 //console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//Destructuring of objects
+const course={
+    coursename:"Js in English",
+    price:"1000",
+    courseInstructor:"Shubham"
+
+}
+//course.courseInstructor
+const {courseInstructor}=course
+console.log(courseInstructor);
+const {courseInstructor:instructor}=course
+console.log(instructor);
+
 
 
 
