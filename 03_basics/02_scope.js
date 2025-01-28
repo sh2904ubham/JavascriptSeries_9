@@ -16,3 +16,16 @@ function one(){
     two();
 }
 one();
+
+//Interestinf
+addone(5)//This do not give error
+function addone(num)
+{
+    return num+1
+}
+
+//addTwo(5)//This gives error
+const addTwo=function(num)
+{
+    return num+2
+}
