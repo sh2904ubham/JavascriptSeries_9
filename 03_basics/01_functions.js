@@ -6,6 +6,7 @@ console.log("B");
 console.log("H");
 console.log("A");
 console.log("M");
+    console.log("S");
 }
 //sayMyName-reference
 //sayMyName()//execute
