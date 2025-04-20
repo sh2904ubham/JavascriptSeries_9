@@ -6,7 +6,7 @@ const JsUser={
     "fullName": "SS",
     [mySym]:"myKey1",
     age:18,
-    location:"jaipur",
+    location:"Rajasthan",
     email:"SS@google.com",
     isLoggedIn:false,
     lastLoginDays:["Monday","Saturday"]
