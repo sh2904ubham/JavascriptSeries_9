@@ -5,7 +5,7 @@ if(userEmail)
     
 }
 else{
-    console.log("No user");
+    console.log("No");
     
 }
 //falsy values
